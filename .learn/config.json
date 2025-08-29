@@ -53,7 +53,7 @@
         "translations": []
     },
     "address": "http://localhost:3000",
-    "currentExercise": null,
+    "currentExercise": "default-index",
     "exercises": [
         {
             "position": 0,
@@ -69,6 +69,11 @@
             "title": "default-index",
             "graded": false,
             "files": [
+                {
+                    "path": ".//.DS_Store",
+                    "name": ".DS_Store",
+                    "hidden": true
+                },
                 {
                     "path": ".//.git",
                     "name": ".git",
@@ -100,6 +105,11 @@
                     "hidden": true
                 },
                 {
+                    "path": ".//index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
                     "path": ".//learn.json",
                     "name": "learn.json",
                     "hidden": true
@@ -107,6 +117,11 @@
                 {
                     "path": ".//server.py",
                     "name": "server.py",
+                    "hidden": false
+                },
+                {
+                    "path": ".//styles.css",
+                    "name": "styles.css",
                     "hidden": false
                 }
             ],
@@ -116,5 +131,5 @@
     "bugsLink": null,
     "videoSolutions": false,
     "localhostOnly": false,
-    "session": 6506901903090328000
+    "session": 7656672814695542000
 }
